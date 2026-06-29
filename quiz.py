@@ -48,3 +48,4 @@ if answer.lower() == "read only memory":
 else:
     print("Incorrect! The correct answer is 'Read Only Memory'. 😔")
 print("Your Score is " + str(score) + " out of 5. 🏆")
+print(f"Your percentage is {score / 5 * 100}%.")
